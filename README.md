@@ -1,5 +1,5 @@
 # AngularBlog
-
+A blog project created with angular based on dribbble layout
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
 
 ## Development server
