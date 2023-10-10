@@ -1,0 +1,12 @@
+@media screen and (max-width:600px){
+    .container__menu-bar > ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+  }
+  .container__menu-bar > ul > li{
+  margin-right: 3rem;
+  list-style: none;
+  }
+}
