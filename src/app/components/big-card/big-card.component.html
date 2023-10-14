@@ -1,15 +1,24 @@
 <div class="container__big-card">
-  <a href="">
-    <div class="big-card__photo">
-      <img src="https://static.vecteezy.com/system/resources/previews/005/549/982/original/futuristic-sci-fi-glowing-hud-circle-element-abstract-hi-tech-background-hologram-particle-of-head-up-display-interface-virtual-reality-technology-of-computer-engineer-space-and-placeholder-vector.jpg"
-      alt="place-holder image"
-      srcset="">
-    </div>
-    <div class="big-card__title">
-      <h1>Descoberta uma nova forma de viagem no tempo</h1>
-    </div>
-    <div class="big-card__description">
-      <p>Aguardamos que o cientista que foi transportado se torne um adulto novamente, pois voltou a ter apenas 3 anos de idade.</p>
-    </div>
-  </a>
+
+  <div class="big-card__photo">
+    <img
+      src="{{ photoCover }}"
+      alt=""
+      height="200px"
+      srcset=""
+    >
+  </div>
+
+  <div class="big-card__title">
+    <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
+  </div>
+
+  <div class="big-card__description">
+    <p>
+      <a [routerLink]="['content', Id]">
+          {{ cardDescription }}
+      </a>
+    </p>
+  </div>
+
 </div>
